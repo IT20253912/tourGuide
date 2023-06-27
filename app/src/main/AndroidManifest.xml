@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tour_guide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--        <activity android:name=".User.UserViewTravellingPlaceDetails" />-->
+        <activity android:name=".User.UserViewTravellingPlaces" />
+        <activity android:name=".Admin.AdminViewPlaceDetails" />
+        <activity android:name=".hotel.user_view_hotel_item" />
+        <activity android:name=".hotel.add_hotel" />
+        <activity android:name=".hotel.admin_hotel_list_view" />
+        <activity android:name=".hotel.hotel_view_item" />
+        <activity android:name=".hotel.Admin_view_hotel_details" />
+        <activity android:name=".UserEvents.User_View_Single_Event_Details"/>
+        <activity android:name=".Event.addEvent"/>
+        <activity android:name=".Event.AdminViewEventSingleDetails"/>
+        <activity android:name=".UserEvents.User_View_All_Events"/>
+        <activity android:name=".Event.admin_view_All_Events"/>
+        <activity android:name=".Userhotels.user_view_all_hotels" />
+        <activity android:name=".Userhotels.user_view_all_hotel_details" />
+        <activity android:name=".hotel.admin_all_hotels"/>
+<!--        <activity android:name=".Admin.AdminDashboard">-->
+        <!--&lt;!&ndash;            <intent-filter>&ndash;&gt;-->
+        <!--&lt;!&ndash;                <action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;                <category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+        <!--&lt;!&ndash;            </intent-filter>&ndash;&gt;-->
+        <!--        </activity>-->
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.signup"/>
+        <activity android:name=".User.MakeReviews"/>
+        <activity android:name=".User.user_profile"/>
+        <activity android:name=".User.make_review"/>
+        <activity android:name=".User.review_list"/>
+        <activity android:name=".Common.OnBoarding" />
+        <activity android:name=".User.UserDashboard"/>
+        <activity android:name=".Admin.TravellingPlaces" />
+        <activity android:name=".Admin.AddTravellingPlace" />
+    </application>
+
+</manifest>
